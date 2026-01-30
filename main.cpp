@@ -30,10 +30,9 @@ int main() {
     cout << "Prime numbers up to " << n << ":\n";
     for (int i = 2; i <= n; ++i) {
         if (isPrime[i]) {
-            cout << i << " ";
+            cout << i << " \n";
         }
     }
 
-    cout << endl;
     return 0;
 }
