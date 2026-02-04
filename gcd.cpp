@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     int a, b;
 
-    cout << "Enter two positive integers: ";
+    cout << "Enter two positive integers \n=>";
     cin >> a >> b;
 
     if (a <= 0 || b <= 0) {

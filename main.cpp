@@ -6,11 +6,11 @@ using namespace std;
 int main() {
     int n;
 
-    cout << "Enter a positive integer: ";
+    cout << "Enter a positive integer \n=>";
     cin >> n;
 
     if (n < 2) {
-        cout << "There are no prime numbers less than 2.\n";
+        cout << "There doesn't exist any prime numbers less than 2.\n";
         return 0;
     }
 
@@ -30,7 +30,7 @@ int main() {
     cout << "Prime numbers up to " << n << ":\n";
     for (int i = 2; i <= n; ++i) {
         if (isPrime[i]) {
-            cout << i << " \n";
+            cout << i << " \n" << endl;
         }
     }
 

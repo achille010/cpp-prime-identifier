@@ -9,7 +9,7 @@ int main() {
     cin >> n;
 
     if (n < 2) {
-        cout << "No prime factors for numbers less than 2.\n";
+        cout << "Numbers less than 2 don't have prime factors.\n";
         return 0;
     }
 

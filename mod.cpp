@@ -5,8 +5,14 @@ using namespace std;
 int main() {
     long long base, exponent, modulus;
 
-    cout << "Enter base, exponent, and modulus: ";
-    cin >> base >> exponent >> modulus;
+    cout << "Enter base: ";
+    cin >> base;
+
+    cout << "Enter the value of the exponent: ";
+    cin >> exponent;
+
+    cout << "Enter the value of modulus (positive): ";
+    cin >> modulus;
 
     if (modulus <= 0) {
         cout << "Modulus must be positive.\n";
